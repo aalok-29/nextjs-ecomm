@@ -92,7 +92,7 @@ const Cart  = ({error,products})=>{
                 shippingAddress={true}
                 billingAddress={true}
                 zipCode={true}
-                stripeKey="pk_test_51H6fgDEta3rHzkPYGgIOQZSFrukEzAl71AOnyAUjyGR8uJPDaGfALQYWre4F5g0Quyh9d7PTphh56SmUlhtsQYmd00DZwB9gMj"
+                stripeKey="pk_test_51LHqweSDzQ9FgvE3QrbHGO9sG33d89iGAcmwpP9x84Xr9PcMcd4G3S35D6kWQRNg4CSSbONrmEqvaPQV85IQW95D00MF1TNOWZ"
                 token={(paymentInfo)=>handleCheckout(paymentInfo)}
                 >
                 <button className="btn">Checkout</button>
