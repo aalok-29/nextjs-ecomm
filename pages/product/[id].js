@@ -115,7 +115,7 @@ const Product = ({product})=>{
     )
 }
 
-export async function getStaticProps({params:{id}}) {
+export async function getServerSideProps({params:{id}}) {
     const res = await fetch(`${baseUrl}/api/product/${id}`)
     const data = await res.json()
     return {
